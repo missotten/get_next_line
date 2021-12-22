@@ -10,7 +10,7 @@ typedef	struct	s_read
 	int	fd;
 	int	max;
 	int	pos;
-	int	data[BUFFER_SIZE + 1];
+	char	data[BUFFER_SIZE];
 }	t_read;
 
 
